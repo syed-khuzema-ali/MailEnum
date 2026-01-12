@@ -1,23 +1,23 @@
-# MailEnum
-MailEnum is a Python‑based email enumeration utility designed strictly for educational and authorized security research. It is intended for ethical hacking practice in controlled and legally permitted environments only.
+# MailExtracter
+MailExtracter is a Python‑based email Extraction utility designed strictly for educational and authorized security research. It is intended for ethical hacking practice in controlled and legally permitted environments only.
 <!-- PROJECT HEADER -->
-<h1 align="center">📧 MailEnum – Email Enumeration Tool</h1>
+<h1 align="center">📧 MailExtracter – Email Extraction Tool</h1>
 
 <p align="center">
-  A Python-based educational utility for understanding email enumeration techniques in authorized and controlled environments.
+  A Python-based educational utility for understanding email Extraction techniques in authorized and controlled environments.
 </p>
 
 ---
 
 ## 📘 Overview
-MailEnum is a lightweight, Python-powered tool created for **educational cybersecurity training** and **authorized security research**. It offers a structured way to study how email enumeration works, emphasizing responsible and permission-based testing practices.
+MailExtracter is a lightweight, Python-powered tool created for **educational cybersecurity training** and **authorized security research**. It offers a structured way to study how email Extraction works, emphasizing responsible and permission-based testing practices.
 
 ---
 
 ## ⚠️ Legal Disclaimer
 
 ### **Important Notice**
-MailEnum is intended strictly for:
+MailExtracter is intended strictly for:
 
 - Educational learning  
 - Ethical hacking training  
@@ -37,7 +37,7 @@ Unauthorized use is prohibited. The author, **Syed Khuzema Ali**, does not endor
 
 | Field     | Value                                   |
 |-----------|------------------------------------------|
-| **Name**  | MailEnum – Email Enumeration Tool        |
+| **Name**  | MailExtracter – Email Extraction Tool        |
 | **Author**| Syed Khuzema Ali                         |
 | **Version** | 1.0                                    |
 | **Language** | Python 2.7                            |
@@ -62,31 +62,31 @@ Unauthorized use is prohibited. The author, **Syed Khuzema Ali**, does not endor
 ## 📥 Installation
 
 ### Clone the repository
-```git clone https://github.com/syed-khuzema-ali/MailEnum```
+```git clone https://github.com/syed-khuzema-ali/MailExtracter```
 
 ### Move into the directory
-```cd mailenum```
+```cd MailExtracter```
 
 ### Make executable (Linux/macOS)
-```chmod +x mailenum.py```
+```chmod +x MailExtracter.py```
 
 # 🚀 Usage
 
 📄 Show Help
-```python mailenum.py -h```
+```python MailExtracter.py -h```
 
 ## 🔍 Basic Scan
-```python mailenum.py -u https://target-website.com```
+```python MailExtracter.py -u https://target-website.com```
 
 ## ⚙️ Advanced Usage
 Run with 20 Threads + Output to File
-```python mailenum.py -u https://example.com -t 20 -o results.txt```
+```python MailExtracter.py -u https://example.com -t 20 -o results.txt```
 
 Quick Scan + JSON Output
-```python mailenum.py -u https://example.com -q -o emails.json```
+```python MailExtracter.py -u https://example.com -q -o emails.json```
 
 Add Delay Between Requests
-```python mailenum.py -u https://example.com -d 0.5 -t 5```
+```python MailExtracter.py -u https://example.com -d 0.5 -t 5```
 
 ## 👤 Author
 
